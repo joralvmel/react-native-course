@@ -7,7 +7,7 @@ const DrawerLayout = () => {
         <Drawer
             drawerContent={CustomDrawer}
             screenOptions={{
-                headerShown: false,
+                //headerShown: false,
                 overlayColor: 'rgba(0,0,0,0.4)',
                 drawerActiveTintColor: 'indigo',
                 headerShadowVisible: false,
@@ -15,7 +15,7 @@ const DrawerLayout = () => {
                     backgroundColor: 'white',
                 },
                 drawerStyle: {
-                    width: 250,
+                    width: 200,
                     backgroundColor: 'white',
                 },
             }}
