@@ -1,14 +1,23 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Drawer } from 'expo-router/drawer';
+import CustomDrawer from "@/components/CustomDrawer";
 
 const DrawerLayout = () => {
     return (
         <Drawer
+            drawerContent={CustomDrawer}
             screenOptions={{
                 // headerShown: false,
                 overlayColor: 'rgba(0,0,0,0.4)',
                 drawerActiveTintColor: 'indigo',
                 headerShadowVisible: false,
+                sceneStyle: {
+                    backgroundColor: 'white',
+                },
+                drawerStyle: {
+                    width: 250,
+                    backgroundColor: 'white',
+                },
             }}
         >
             <Drawer.Screen
