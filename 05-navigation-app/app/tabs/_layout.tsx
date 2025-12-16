@@ -7,7 +7,7 @@ const TabsLayout = () => {
                 tabBarActiveTintColor: 'indigo',
                 // headerShown: false,
                 // tabBarStyle: {
-                //   backgroundColor: 'black',
+                // backgroundColor: 'black',
                 // },
                 // tabBarActiveBackgroundColor: 'red',
             }}
