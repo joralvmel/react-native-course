@@ -5,11 +5,12 @@ import MoviePoster from "@/presentation/components/movies/MoviePoster";
 interface MovieHorizontalListProps {
     title?: string;
     movies: Movie[];
+    className?: string;
 }
 
-const MovieHorizontalList = ({title, movies}:MovieHorizontalListProps) => {
+const MovieHorizontalList = ({title, movies, className}:MovieHorizontalListProps) => {
     return (
-        <View>
+        <View className={`${className}`}>
             {title && <Text className='text-xl font-bold px-4 mb-2'>{title}</Text>}
             <FlatList
                 horizontal
